@@ -82,6 +82,39 @@ body{
     font-size: 14px;
 }
 
+/*************** FOOTER *****************/
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+ #hours, #address {
+    line-height: 2;
+ }
+
+ #hours > span, #address > span {
+    font-size: 1.3em;
+ }
+
+ #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+ }
+ #testimonials {
+    font-style: italic;
+ }
+
+ #testimonials p:nth-child(2) {
+    margin-top: 25px;
+ }
+
 
 /************* HOME PAGE *****************/
 .container .jumbotron {
@@ -219,6 +252,19 @@ body{
     #menu-tile, #specials-tile {
         width: 360px;
         margin: 0 auto 15px;;
+    }
+
+    /* Footer*/
+    .panel-footer {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .panel-footer section:nth-child(3) {/* margin already exist on the whole row*/
+        margin-bottom: 0;
+    }
+    .panel-footer section hr {
+        width: 50%;
+        margin-left: 25%;
     }
 }
 
